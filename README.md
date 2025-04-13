@@ -1,7 +1,5 @@
 # LLM-MCP-RAG-JS
 
-# LLM-MCP-RAG-JS
-
 > **提示**: 如果需要 Python 版本的实现，请访问 [LLM-MCP-RAG-Python](https://github.com/sunpcm/llm-mcp-rag-python)。
 
 ## 项目架构
