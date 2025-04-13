@@ -1,9 +1,5 @@
 # LLM-MCP-RAG-JS
 
-> 本项目部分代码参考了 [KelvinQiu802/llm-mcp-rag](https://github.com/KelvinQiu802/llm-mcp-rag)，在此表示感谢。# LLM-MCP-RAG
-
-一个基于 Model Context Protocol (MCP) 的 RAG (Retrieval-Augmented Generation) 系统实现，用于增强大语言模型的上下文处理能力。
-
 ## 项目架构
 
 项目采用模块化设计，主要包含以下核心组件：
@@ -131,3 +127,7 @@ const agent = new RAGAgent(mcpService, retriever);
 // 处理查询
 const response = await agent.process('你的问题');
 ```
+
+> 本项目部分代码参考了 [KelvinQiu802/llm-mcp-rag](https://github.com/KelvinQiu802/llm-mcp-rag)，在此表示感谢。# LLM-MCP-RAG
+
+一个基于 Model Context Protocol (MCP) 的 RAG (Retrieval-Augmented Generation) 系统实现，用于增强大语言模型的上下文处理能力。
