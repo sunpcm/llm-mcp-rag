@@ -1,4 +1,4 @@
-# LLM-MCP-RAG
+# LLM-MCP-RAG-JS
 
 > 本项目部分代码参考了 [KelvinQiu802/llm-mcp-rag](https://github.com/KelvinQiu802/llm-mcp-rag)，在此表示感谢。# LLM-MCP-RAG
 
