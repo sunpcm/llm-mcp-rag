@@ -61,8 +61,10 @@ pnpm install
 创建 `.env` 文件并配置以下环境变量：
 
 ```env
-OPENAI_API_KEY=your_api_key
-MCP_SERVER_PATH=path_to_mcp_server
+EMBEDDING_BASE_URL=https://oneapi.biubiuniu.com
+EMBEDDING_KEY=your_embedding_api_key
+OPENAI_BASE_URL=https://oneapi.biubiuniu.com
+OPENAI_API_KEY=your_llm_api_key
 # 其他必要的环境变量
 ```
 
