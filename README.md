@@ -1,6 +1,7 @@
 # LLM-MCP-RAG-JS
 
 > **提示**: 如果需要 Python 版本的实现，请访问 [LLM-MCP-RAG-Python](https://github.com/sunpcm/llm-mcp-rag-python)。
+> Python版本具有更好的扩展性，可以更好的集成rag/Vector DB/ComfyUI
 
 ## 项目架构
 
@@ -43,7 +44,6 @@ src/
   - `openai`: OpenAI API 客户端
   - `zod`: 类型验证
   - `dotenv`: 环境变量管理
-  - `chalk`: 终端输出美化
 
 ## 配置和运行
 
@@ -67,7 +67,6 @@ EMBEDDING_BASE_URL=https://oneapi.biubiuniu.com
 EMBEDDING_KEY=your_embedding_api_key
 OPENAI_BASE_URL=https://oneapi.biubiuniu.com
 OPENAI_API_KEY=your_llm_api_key
-# 其他必要的环境变量
 ```
 
 ### 开发运行
@@ -99,16 +98,6 @@ pnpm start
    - 添加详细的日志记录
    - 实现性能指标收集
    - 添加监控接口
-
-4. **测试覆盖**
-   - 添加单元测试
-   - 添加集成测试
-   - 实现端到端测试
-
-5. **文档完善**
-   - 添加 API 文档
-   - 完善使用示例
-   - 添加贡献指南
 
 ## 使用示例
 
